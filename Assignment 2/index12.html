@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUDO GAME SF</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    <form id="reset">
+    <div>Player 1 Name: </div>
+    <input id="p1" type="text">
+    <div>Player 2 Name: </div>
+    <input id="p2" type="text">
+    <div>Colour of player 1:</div>
+    <input type="radio" id="r1" name="p1" value="R">
+    <label for="R" style="color: red;">R</label>
+    <input type="radio" id="g1" name="p1" value="G">
+    <label for="G" style="color: green;">G</label>
+    <input type="radio" id="y1" name="p1" value="Y">
+    <label for="Y" style="color: yellow;">Y</label>
+    <input type="radio" id="b1" name="p1" value="B">
+    <label for="B" style="color: blue;">B</label><br>
+    <div>Colour of player 2:</div>
+    <input type="radio" id="r2" name="p2" value="R">
+    <label for="R" style="color: red;">R</label>
+    <input type="radio" id="g2" name="p2" value="G">
+    <label for="G" style="color: green;">G</label>
+    <input type="radio" id="y2" name="p2" value="Y">
+    <label for="Y" style="color: yellow;">Y</label>
+    <input type="radio" id="b2" name="p2" value="B">
+    <label for="B" style="color: blue;">B</label>
+    <div>Size of Board layout: </div>
+    <input id="size" type="number" min="6" max="12"><BR>
+    <button type="button" id="submit">START</button><button type="reset" onclick="resetform()">RESET GAME</button>
+    <div class="ludoboard">
+        <p></p>
+    </div>
+    </form>
+</body>
+<script src="jse.js"></script>
+</html>

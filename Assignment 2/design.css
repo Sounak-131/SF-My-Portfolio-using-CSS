@@ -1,0 +1,14 @@
+*{
+    background-color: rgb(213, 193, 193);
+}
+#p1, #p2, #size{
+    background-color: white;
+}
+.ludoboard{
+    display: grid;
+    border: 2px solid brown;
+    height: 65vh;
+    width: 45vw;
+    grid-template-rows: repeat(s,1fr);
+    grid-template-columns: repeat(s,1fr);
+}
